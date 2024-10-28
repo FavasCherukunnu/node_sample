@@ -6,6 +6,8 @@ app.use(cors());
 
 const port = process.env.PORT || 3000;
 
+console.log("starting server")
+
 app.get('/', (req, res) => {
     res.send('Hello World');  
   });
